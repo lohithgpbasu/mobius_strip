@@ -69,6 +69,8 @@ python mobius_strip.py
 
 ---
 
+### Short Write-up
+
 ## Structure
 
 - One class MobiusStrip with methods to compute mesh, surface area, edge length, and visualization.
