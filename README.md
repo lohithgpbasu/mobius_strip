@@ -19,6 +19,7 @@ Install the required Python modules using:
 
 ```bash
 pip install numpy matplotlib
+```
 
 ---
 
@@ -37,5 +38,57 @@ Parametric Equations:
 - x(u,v)=(R+v∗cos(u/2))∗cos(u)y(u,v)=(R+v∗cos(u/2))∗sin(u)z(u,v)=v∗sin(u/2)
 
 Where:
-- ```bash
+
+```bash
   u ∈ [0, 2π]
+  v ∈ [-w/2, w/2]
+```
+
+Core Functions:
+
+- surface_area() – Uses tiny 3D triangles (via cross product) to estimate total surface area.
+
+- edge_length() – Adds distances along both edges to estimate boundary length.
+
+- plot() – Visualizes the strip in 3D.
+
+---
+
+## 💉 Usage
+
+```bash
+python mobius_strip.py
+```
+
+---
+
+## You'll see
+
+- Printed surface area and edge length.
+- A 3D plot of the Möbius strip.
+
+---
+
+## Structure
+
+- One class MobiusStrip with methods to compute mesh, surface area, edge length, and visualization.
+- Modular functions to keep it clean and readable.
+
+## Approach to Surface Area
+
+- Used finite difference method to approximate partial derivatives.
+- Computed area of tiny parallelograms using cross product.
+- Summed over mesh grid to get total surface area.
+
+## Challenges
+
+- Keeping numerical stability at high resolutions.
+- Balancing speed vs. accuracy in surface_area().
+
+---
+
+## Images
+
+![Input Image](https://res.cloudinary.com/djyotwnhe/image/upload/v1748279727/Screenshot_2025-05-26_215446_ootjbe.png)
+
+![Möbius Plot](https://res.cloudinary.com/djyotwnhe/image/upload/v1748279761/Screenshot_2025-05-26_213701_vtgvuw.png)
