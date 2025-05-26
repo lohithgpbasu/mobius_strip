@@ -89,6 +89,10 @@ python mobius_strip.py
 
 ## Images
 
+- Input Image.
+
 ![Input Image](https://res.cloudinary.com/djyotwnhe/image/upload/v1748279727/Screenshot_2025-05-26_215446_ootjbe.png)
+
+- Mobius Plot.
 
 ![Möbius Plot](https://res.cloudinary.com/djyotwnhe/image/upload/v1748279761/Screenshot_2025-05-26_213701_vtgvuw.png)
