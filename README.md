@@ -62,14 +62,14 @@ python mobius_strip.py
 
 ---
 
-## You'll see
+## 👁️ You'll see
 
 - Printed surface area and edge length.
 - A 3D plot of the Möbius strip.
 
 ---
 
-### Short Write-up
+## Short Write-up
 
 ## Structure
 
@@ -89,7 +89,7 @@ python mobius_strip.py
 
 ---
 
-## Images
+## 📷 Images
 
 - Input Image.
 
