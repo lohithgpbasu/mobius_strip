@@ -19,3 +19,23 @@ Install the required Python modules using:
 
 ```bash
 pip install numpy matplotlib
+
+---
+
+## 📁 File Structure
+
+- cd mobius_strip
+  - mobius_strip.py
+  - README.md
+
+---
+
+## 🧠 How It Works
+
+Parametric Equations:
+
+- x(u,v)=(R+v∗cos(u/2))∗cos(u)y(u,v)=(R+v∗cos(u/2))∗sin(u)z(u,v)=v∗sin(u/2)
+
+Where:
+- ```bash
+  u ∈ [0, 2π]
